@@ -1,0 +1,28 @@
+{
+    "author": "joscha-friedrich.eirich@stud.u",
+    "dependencies": {},
+    "keywords": [],
+    "name": "treeanimation",
+    "pebble": {
+        "displayName": "treeanimation",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "data/tree",
+                    "name": "IMAGE_TREE1_Black_White",
+                    "targetPlatforms": null,
+                    "type": "raw"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "uuid": "3f57f0ab-df73-4645-a00f-56be06a425fd",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
