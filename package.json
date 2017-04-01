@@ -11,10 +11,16 @@
         "resources": {
             "media": [
                 {
-                    "file": "data/tree",
-                    "name": "IMAGE_TREE1_Black_White",
+                    "file": "data/2.png",
+                    "name": "IMAGE_TREE_1",
                     "targetPlatforms": null,
-                    "type": "raw"
+                    "type": "bitmap"
+                },
+                {
+                    "file": "data/7.png",
+                    "name": "IMAGE_TREE_2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
                 }
             ]
         },
