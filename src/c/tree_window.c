@@ -4,19 +4,63 @@
  GBitmap *treeImage = NULL;
  BitmapLayer *treeImageLayer;
  int frame_no;
- const int NO_OF_FRAMES = 2;
+ const int NO_OF_FRAMES = 47;
 
  const int animation_images[] = {
-  IMAGE_TREE_1,
-  IMAGE_TREE_2
+        RESOURCE_ID_IMAGE_TREE_1,
+     RESOURCE_ID_IMAGE_TREE_2,
+     RESOURCE_ID_IMAGE_TREE_3,
+     RESOURCE_ID_IMAGE_TREE_4,
+     RESOURCE_ID_IMAGE_TREE_5,
+     RESOURCE_ID_IMAGE_TREE_6,
+     RESOURCE_ID_IMAGE_TREE_7,
+     RESOURCE_ID_IMAGE_TREE_8,
+     RESOURCE_ID_IMAGE_TREE_9,
+        RESOURCE_ID_IMAGE_TREE_10,
+     RESOURCE_ID_IMAGE_TREE_11,
+     RESOURCE_ID_IMAGE_TREE_12,
+     RESOURCE_ID_IMAGE_TREE_13,
+     RESOURCE_ID_IMAGE_TREE_14,
+     RESOURCE_ID_IMAGE_TREE_15,
+     RESOURCE_ID_IMAGE_TREE_16,
+     RESOURCE_ID_IMAGE_TREE_17,
+     RESOURCE_ID_IMAGE_TREE_18,
+     RESOURCE_ID_IMAGE_TREE_19,
+        RESOURCE_ID_IMAGE_TREE_20,
+     RESOURCE_ID_IMAGE_TREE_21,
+     RESOURCE_ID_IMAGE_TREE_22,
+     RESOURCE_ID_IMAGE_TREE_23,
+     RESOURCE_ID_IMAGE_TREE_24,
+     RESOURCE_ID_IMAGE_TREE_25,
+     RESOURCE_ID_IMAGE_TREE_26,
+     RESOURCE_ID_IMAGE_TREE_27,
+     RESOURCE_ID_IMAGE_TREE_28,
+     RESOURCE_ID_IMAGE_TREE_29,
+        RESOURCE_ID_IMAGE_TREE_30,
+     RESOURCE_ID_IMAGE_TREE_31,
+     RESOURCE_ID_IMAGE_TREE_32,
+     RESOURCE_ID_IMAGE_TREE_33,
+     RESOURCE_ID_IMAGE_TREE_34,
+     RESOURCE_ID_IMAGE_TREE_35,
+     RESOURCE_ID_IMAGE_TREE_36,
+     RESOURCE_ID_IMAGE_TREE_37,
+     RESOURCE_ID_IMAGE_TREE_38,
+     RESOURCE_ID_IMAGE_TREE_39,
+        RESOURCE_ID_IMAGE_TREE_40,
+     RESOURCE_ID_IMAGE_TREE_41,
+     RESOURCE_ID_IMAGE_TREE_42,
+     RESOURCE_ID_IMAGE_TREE_43,
+     RESOURCE_ID_IMAGE_TREE_44,
+     RESOURCE_ID_IMAGE_TREE_45,
+     RESOURCE_ID_IMAGE_TREE_46,
+     RESOURCE_ID_IMAGE_TREE_47
+
  };
 
 static void load_sequence();
 
 static void timer_handler(void *context) {
-  if(frame_no == NO_OF_FRAMES - 1) {
-    frame_no = 0;
-  }
+  if(frame_no <= NO_OF_FRAMES) {
 
   if(treeImage != NULL){
     gbitmap_destroy(treeImage);
@@ -27,9 +71,9 @@ static void timer_handler(void *context) {
   bitmap_layer_set_bitmap(treeImageLayer, treeImage);
   layer_mark_dirty(bitmap_layer_get_layer(treeImageLayer));
   frame_no++;
-  app_time_register(80, timer_handler, NULL);
+  app_timer_register(45, timer_handler, NULL);
+  }
 }
-
 static void load_sequence() {
   frame_no = 0;
   app_timer_register(1, timer_handler, NULL);
