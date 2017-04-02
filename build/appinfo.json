@@ -1,0 +1,304 @@
+{
+    "versionLabel": "1.0", 
+    "projectType": "native", 
+    "name": "treeanimation", 
+    "messageKeys": {}, 
+    "companyName": "joscha-friedrich.eirich@stud.u", 
+    "enableMultiJS": true, 
+    "sdkVersion": "3", 
+    "capabilities": [], 
+    "appKeys": {}, 
+    "longName": "treeanimation", 
+    "displayName": "treeanimation", 
+    "shortName": "treeanimation", 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "resources": {
+        "media": [
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_1", 
+                "file": "data/1.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_2", 
+                "file": "data/2.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_3", 
+                "file": "data/3.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_4", 
+                "file": "data/4.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_5", 
+                "file": "data/5.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_6", 
+                "file": "data/6.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_7", 
+                "file": "data/7.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_8", 
+                "file": "data/8.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_9", 
+                "file": "data/9.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_10", 
+                "file": "data/10.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_11", 
+                "file": "data/11.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_12", 
+                "file": "data/12.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_13", 
+                "file": "data/13.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_14", 
+                "file": "data/14.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_15", 
+                "file": "data/15.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_16", 
+                "file": "data/16.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_17", 
+                "file": "data/17.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_18", 
+                "file": "data/18.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_19", 
+                "file": "data/19.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_20", 
+                "file": "data/20.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_21", 
+                "file": "data/21.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_22", 
+                "file": "data/22.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_23", 
+                "file": "data/23.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_24", 
+                "file": "data/24.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_25", 
+                "file": "data/25.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_26", 
+                "file": "data/26.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_27", 
+                "file": "data/27.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_28", 
+                "file": "data/28.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_29", 
+                "file": "data/29.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_30", 
+                "file": "data/30.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_31", 
+                "file": "data/31.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_32", 
+                "file": "data/32.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_33", 
+                "file": "data/33.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_34", 
+                "file": "data/34.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_35", 
+                "file": "data/35.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_36", 
+                "file": "data/36.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_37", 
+                "file": "data/37.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_38", 
+                "file": "data/38.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_39", 
+                "file": "data/39.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_40", 
+                "file": "data/40.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_41", 
+                "file": "data/41.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_42", 
+                "file": "data/42.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_43", 
+                "file": "data/43.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_44", 
+                "file": "data/44.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_45", 
+                "file": "data/45.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_46", 
+                "file": "data/46.png"
+            }, 
+            {
+                "targetPlatforms": null, 
+                "type": "bitmap", 
+                "name": "IMAGE_TREE_47", 
+                "file": "data/47.png"
+            }
+        ]
+    }, 
+    "uuid": "3f57f0ab-df73-4645-a00f-56be06a425fd"
+}
