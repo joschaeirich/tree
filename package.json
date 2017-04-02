@@ -295,6 +295,9 @@
             ]
         },
         "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
         "uuid": "3f57f0ab-df73-4645-a00f-56be06a425fd",
         "watchapp": {
             "watchface": false

@@ -60,7 +60,7 @@
 static void load_sequence();
 
 static void timer_handler(void *context) {
-  if(frame_no <= NO_OF_FRAMES) {
+  if(frame_no == NO_OF_FRAMES) {
   frame_no = 0; 
   }
 
