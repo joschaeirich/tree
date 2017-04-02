@@ -61,6 +61,8 @@ static void load_sequence();
 
 static void timer_handler(void *context) {
   if(frame_no <= NO_OF_FRAMES) {
+  frame_no = 0; 
+  }
 
   if(treeImage != NULL){
     gbitmap_destroy(treeImage);
@@ -71,9 +73,9 @@ static void timer_handler(void *context) {
   bitmap_layer_set_bitmap(treeImageLayer, treeImage);
   layer_mark_dirty(bitmap_layer_get_layer(treeImageLayer));
   frame_no++;
-  app_timer_register(45, timer_handler, NULL);
+  app_timer_register(80, timer_handler, NULL);
   }
-}
+
 static void load_sequence() {
   frame_no = 0;
   app_timer_register(1, timer_handler, NULL);
